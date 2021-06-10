@@ -1,0 +1,40 @@
+.padre{
+    /* border: 2px yellowgreen solid; */
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hijo{
+    padding:1rem;
+    margin: 1rem;
+    /* border: 2px blue solid; */
+    text-align: center;
+    width: 33%;
+    height: 80%;
+    
+}
+
+.imagen {
+    width: 8rem;   
+    height: 8rem;
+    border-radius: 50%;
+    border-color: blue; 
+    object-fit: cover;
+    
+   
+}
+
+.titulo{
+    /* border: 2px yellowgreen solid; */
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    border-color: blue;
+    margin-top: -50px;
+    padding-top: -50px;
+}

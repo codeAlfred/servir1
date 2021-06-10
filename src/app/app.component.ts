@@ -15,7 +15,11 @@ export class AppComponent {
 
   openDialog(){
     //el primer parametro es un componente y el segundo pasa parametros de un componente
-    this.dialog.open(TipoUserComponent);
+    let dialogRef= this.dialog.open(TipoUserComponent, {width: '90%', data: {name: 'LUIS'}});
+
+    dialogRef.afterClosed().subscribe( result =>{
+      console.log(`Dialog result: ${result}`);
+    })
   }
 
 }
