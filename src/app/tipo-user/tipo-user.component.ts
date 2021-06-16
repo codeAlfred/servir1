@@ -15,4 +15,41 @@ export class TipoUserComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  tipo_users = [
+    {
+      "idUser":1,
+      "tipoUser": "Evaluador",
+      "imgUser":"../../assets/evaluador.jpg"
+    },
+    {
+      "idUser":2,
+      "tipoUser": "Evaluado",
+      "imgUser":"../../assets/evaluado.png"
+    },
+    {
+      "idUser":3,
+      "tipoUser": "ORH",
+      "imgUser":"../../assets/orh.jpg"
+    },
+    {
+      "idUser":4,
+      "tipoUser": "TES1",
+      "imgUser":"../../assets/evaluador.jpg"
+    },
+    {
+      "idUser":4,
+      "tipoUser": "TES1",
+      "imgUser":"../../assets/evaluador.jpg"
+    },
+    {
+      "idUser":4,
+      "tipoUser": "TES1",
+      "imgUser":"../../assets/evaluador.jpg"
+    },
+    {
+      "idUser":4,
+      "tipoUser": "TES1",
+      "imgUser":"../../assets/evaluador.jpg"
+    }
+  ]
 }

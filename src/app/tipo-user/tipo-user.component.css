@@ -1,6 +1,6 @@
 .titulo{    
     padding-top: 2px;
-    display: flex;
+    display: flex;   
     justify-content: space-between;
     align-items: center;
 }
@@ -13,17 +13,19 @@
     text-align: center;
 }
 .padre{
-    padding-top: 10px;
+    /* border: 2px solid blue; */
+    padding: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 .hijo{
-    padding:1rem;
+    /* border: 2px solid green; */    
     margin: 1rem;   
     text-align: center;
-    width: 33%;
-    height: 80%;    
+    width: 25%;
+    height: 90%;    
 }
 .imagen {
     width: 8rem;   

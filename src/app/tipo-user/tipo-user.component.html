@@ -14,20 +14,13 @@
     <div>
         <p class="texto1">Seleccione el tipo de usuario</p>
     </div>
-    <div class="padre">
+    <div class="padre">      
 
-        <div class="hijo">
-            <img class="imagen" src="../../assets/evaluador.jpg" alt="">
-            <h3>Evaluador</h3>
+        <div class="hijo" *ngFor="let tipo_user of tipo_users">
+            <img class="imagen" src={{tipo_user.imgUser}} alt="">
+            <h3>{{tipo_user.tipoUser}}</h3>           
         </div>
-        <div class="hijo">
-            <img class="imagen" src="../../assets/evaluado.png" alt="">
-            <h3>Evaluado</h3>
-        </div>
-        <div class="hijo">
-            <img class="imagen" src="../../assets/orh.jpg" alt="">
-            <h3>ORH</h3>
-        </div>
+        
     </div>
 
 </mat-dialog-content>
